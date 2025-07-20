@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .essential{
     display: flex;
     flex-direction: column;
@@ -9,10 +14,60 @@ p{
 
 #first{
     display: flex;
+    flex-direction: column;
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 150px;
+    padding-top: 0px;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    position: sticky;
+    width: 100%; 
+    padding: 20px 170px; 
+    margin: 0;
+    margin-bottom: 100px;
+    color: white; 
+}
+
+#header h6 {
+    font-size: 24px;
+    font-weight: bold; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f9faf8;
+    margin: 0; 
+}
+
+#headerInside {
+    display: flex;
+    gap: 30px;
+}
+
+#headerInside p {
+    color: #e5e7eb; 
+    font-size: 18px;
+    margin: 0; 
+    cursor: pointer;
+}
+
+#headerInside p:hover {
+    color: white; /* White text on hover */
+    text-decoration: underline; /* Underline on hover (optional) */
+}
+
+#headerInside, #underHeader{
+    display: flex;
+}
+
+#textHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #text{
@@ -28,10 +83,23 @@ p{
 #textSec{
     font-size: 18px;
     color: #e5e7eb;
+    padding: 30px;
+    padding-left: 0;
 }
 
 #textMain, #textSec, #b1{
     margin: auto;
+}
+
+#b1{
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 75px;
+    height: 40px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 #imageMain{
@@ -44,6 +112,7 @@ p{
     flex-direction: column;
     align-items: center;
     padding: 50px;
+    width: 100%;
 }
 
 #second img{
@@ -53,8 +122,14 @@ p{
     border-radius: 25px;
 }
 
+#infoHeader{
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+}
+
 .t{
-    margin: 50px;
+    margin: 30px;
 }
 
 .imatext{
@@ -65,6 +140,25 @@ p{
 
 #third{
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding: 120px;
+}
+
+#quoteText{
+    font-size: 36px;
+    font-weight: 200;
+    color: #1F2937;
+    padding: 5;
+    max-width: 500px;
+}
+
+#al{
+    font-size: 20px;
 }
 
 #second, #fourth{
