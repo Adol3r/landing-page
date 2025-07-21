@@ -91,7 +91,7 @@ p{
     margin: auto;
 }
 
-#b1{
+#b1, #b2{
     background-color: #3882f6;
     color: #f9faf8;
     width: 75px;
@@ -130,6 +130,15 @@ p{
 
 .t{
     margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.t p{
+    color: #8f8f8f;
 }
 
 .imatext{
@@ -160,8 +169,52 @@ p{
 
 #al{
     font-size: 20px;
+    padding-left: 270px;
 }
 
 #second, #fourth{
     background-color: white;
+}
+
+#fourth{
+    padding: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#blueBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 12px;
+}
+
+#blueText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+#blueText p{
+    margin-left: 0px;
+}
+
+#b2{
+    border-color: white;
+    margin-right: 200px;
+    width: 100px;
+    height: 60px;
+}
+
+footer{
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 30px;
+    text-align: center;
 }
